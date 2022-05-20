@@ -28,3 +28,19 @@ body{
 #container h1{
     font-size: 20px;
 }
+.btn-primo{
+    display: inline-block;
+    text-decoration: none;
+    color:rgb(182, 8, 8);
+    padding: 1rem;
+    font-size:18px;
+    font-weight: bold;
+    border-radius:19px;
+    transition: .3s;
+    border: 1px solid rgb(182, 8, 8);
+}
+.btn-primo:hover{
+    background-color: rgb(182, 8, 8);
+    color: white;
+    transform: scale(1.2);
+}
